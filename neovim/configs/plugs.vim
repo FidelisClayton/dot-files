@@ -20,6 +20,7 @@ Plug 'plasticboy/vim-markdown'
 Plug 'leafgarland/typescript-vim'
 Plug 'statianzo/vim-jade'
 Plug 'digitaltoad/vim-pug'
+Plug 'ElmCast/elm-vim'
 
 " Edit Tools
 Plug 'tpope/vim-surround'

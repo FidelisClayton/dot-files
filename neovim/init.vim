@@ -14,3 +14,6 @@ source ~/.config/nvim/configs/plugins/indentline.vim
 source ~/.config/nvim/configs/plugins/javascript.vim
 source ~/.config/nvim/configs/plugins/lightline.vim
 source ~/.config/nvim/configs/plugins/nerdtree.vim
+source ~/.config/nvim/configs/plugins/elm.vim
+
+autocmd Filetype elm setlocal ts=4 sts=4 sw=4
