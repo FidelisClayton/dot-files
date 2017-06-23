@@ -24,3 +24,15 @@ echo $SHELL #Expected result: /bin/zsh or similar.
 ```sh
 cp zsh/zshrc ~/.zshrc
 ```
+### Oh My ZSH
+1 - Install OhMyZSH via curl or wget:
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# or
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+```
+
+2 - Copy the `oh-my-zsh/theme` folder to install the theme:
+```
+cp -rf ./oh-my-zsh/themes ~/.oh-my-zsh
+```
