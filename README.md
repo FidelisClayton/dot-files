@@ -19,3 +19,8 @@ chsh -s $(which zsh)
 ```sh
 echo $SHELL #Expected result: /bin/zsh or similar.
 ```
+
+4 - Inside this project folder, copy the new `.zsh` file:
+```sh
+cp zsh/zshrc ~/.zshrc
+```
