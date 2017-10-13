@@ -55,3 +55,14 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 ```
 nvim +PlugInstall
 ```
+
+### Tmux
+1 - Install Tmux:
+```sh
+sudo apt-get install tmux
+```
+
+2 - Copy the tmux config
+```sh
+cp ./tmux/tmux.conf ~/.tmux.conf
+```
