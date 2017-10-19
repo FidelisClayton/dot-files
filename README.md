@@ -1,6 +1,6 @@
 # dot-files
 
-### 1. ZSH
+### ZSH
 1 - [Install ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH):
 ```sh
 # Ubuntu
@@ -24,7 +24,7 @@ echo $SHELL #Expected result: /bin/zsh or similar.
 ```sh
 cp zsh/zshrc ~/.zshrc
 ```
-### 2. Oh My ZSH
+### Oh My ZSH
 1 - Install OhMyZSH via curl or wget:
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
