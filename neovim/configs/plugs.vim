@@ -21,6 +21,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'statianzo/vim-jade'
 Plug 'digitaltoad/vim-pug'
 Plug 'ElmCast/elm-vim'
+Plug 'w0rp/ale'
 
 " Edit Tools
 Plug 'tpope/vim-surround'
