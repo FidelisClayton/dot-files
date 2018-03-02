@@ -17,22 +17,32 @@ Plug 'skammer/vim-css-color'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'plasticboy/vim-markdown'
-Plug 'leafgarland/typescript-vim'
 Plug 'statianzo/vim-jade'
-Plug 'digitaltoad/vim-pug'
-Plug 'ElmCast/elm-vim'
-Plug 'w0rp/ale'
+Plug 'neovimhaskell/haskell-vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'andreshazard/vim-freemarker'
 
 " Edit Tools
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'Raimondi/delimitMate'
 Plug 'tomtom/tcomment_vim'
-Plug 'Yggdroot/indentLine'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --js-completer --tern-completer' }
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'mattn/emmet-vim'
+Plug 'ternjs/tern_for_vim'
+" Plug 'prettier/vim-prettier', {
+"   \ 'do': 'npm install',
+"   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue'] }
 
 " Others
 Plug 'editorconfig/editorconfig-vim'
 Plug 'wakatime/vim-wakatime'
 Plug 'airblade/vim-gitgutter'
+Plug 'metakirby5/codi.vim'
+Plug 'vimwiki/vimwiki'
+Plug 'mattn/calendar-vim'
+Plug 'kristijanhusak/vim-carbon-now-sh'
 
 call plug#end()

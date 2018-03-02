@@ -15,5 +15,9 @@ source ~/.config/nvim/configs/plugins/javascript.vim
 source ~/.config/nvim/configs/plugins/lightline.vim
 source ~/.config/nvim/configs/plugins/nerdtree.vim
 source ~/.config/nvim/configs/plugins/elm.vim
+source ~/.config/nvim/configs/plugins/emmet.vim
+source ~/.config/nvim/configs/plugins/codi.vim
+source ~/.config/nvim/configs/plugins/wiki.vim
+source ~/.config/nvim/configs/plugins/typescript.vim
 
 autocmd Filetype elm setlocal ts=4 sts=4 sw=4
