@@ -46,3 +46,6 @@ match ExtraWhitespace /\s\+$\|\t/
 
 " Copy/paste to/from clipboard
 set clipboard=unnamedplus
+
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources = {'_': ['ale']}

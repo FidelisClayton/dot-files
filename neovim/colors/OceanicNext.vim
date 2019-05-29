@@ -12,7 +12,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="OceanicNext"
+let g:colors_name="deus"
 
 hi Bold gui=bold cterm=bold
 hi Debug guifg=#ec5f67 ctermfg=203
