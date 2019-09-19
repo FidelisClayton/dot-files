@@ -37,6 +37,13 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 cp -rf ./oh-my-zsh/themes ~/.oh-my-zsh
 ```
 
+3 - Install plugins:
+```sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+```
+
 ### NeoVim
 1 - [Install Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 ```sh
